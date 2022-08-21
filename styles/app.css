@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.custom-width {
+    max-width: 1015px;
+}
+
+.green {
+    background-color: #00ccb1;
+}
+
+.text-green {
+    color: #00ccb1;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.grey,
+.about:hover {
+    color: #ababab;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+}
+
+li {
+    padding: 16px;
+    font-size: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    width: 230px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    background-color: white;
+    color: #ababab;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #dadada;
+    color: #00ccb1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn,
+.career:hover {
+    color: #00ccb1;
+}
+
+i {
+    color: white;
+}
+
+.for-patients,
+.for-doctors,
+.for-clinics {
+    width: 40%;
+    padding: 30px 40px;
+    margin: 0 10px;
+    transition-duration: 0.2s;
+}
+
+.for-patients:hover,
+.for-doctors:hover,
+.for-clinics:hover {
+    opacity: 0.9;
+}
+
+.company-logo,
+.log {
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+.company-logo:hover,
+.log:hover {
+    opacity: 1;
+}
+
+.company-logo img {
+    width: 150px;
+    height: 22.5px;
+}
+
+.background-logo {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.box {
+    background-color: white;
+    padding: 30px 30px;
+}
+
+.infos {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 250px 250px;
+    row-gap: 30px;
+    column-gap: 15px;
+}
+
+#cities {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 500px 500px 500px;
+}
+
+.card-body {
+    position: relative;
+}
+
+.card-body a {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.card {
+    transition-duration: 0.4s;
+    height: 50vh;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
